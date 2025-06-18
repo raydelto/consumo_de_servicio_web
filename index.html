@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js" defer></script>
+
+    <title>Agenda de Contactos</title>
+</head>
+<body onload="cargarContactos()">
+<div class="encabezado">
+    Agenda de Contactos
+    <input type="text" class="cuadroDeTexto" id="txtNombre" placeholder="Nombre">
+    <input type="text" class="cuadroDeTexto" id="txtApellido" placeholder="Apellido">
+    <input type="text" class="cuadroDeTexto" id="txtTelefono" placeholder="Telefono">
+    <button class="boton" id="btnAgregar" onclick="agregarContacto()">Agregar</button>
+
+</div>
+
+<div id="txtContactos" class="contactos">Cargando contactos...</div>
+
+</body>
+</html>
